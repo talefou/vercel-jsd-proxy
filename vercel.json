@@ -2,6 +2,11 @@
   "version": 2,
   "routes": [
     {
+      "src": "/",
+      "dest": "https://vayfou.cn",
+      "status": 302
+    },
+    {
       "src": "/(.*)",
       "dest": "https://jsdelivr.cron.pub/$1"
     }
