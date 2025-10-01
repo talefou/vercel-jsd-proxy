@@ -8,7 +8,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "https://jsdelivr.cron.pub/$1"
+      "dest": "https://cdn.jsdelivr.net/$1"
     }
   ]
 }
